@@ -1,0 +1,1754 @@
+*{
+	padding: 0;
+    margin: 0;
+	border: 0;
+}
+body,html{
+	width: 100%;
+    height: 100%;
+    cursor: url('../img/fj.ico'), auto;
+    background-color: #b6b09b;
+}
+@font-face {
+	font-family: 'myfont';
+	src: url(../myfont/old_stamper.woff) format('woff');
+}
+@font-face {
+	font-family: myfont2;
+	src: url('../myfont/zihun_32.ttf');
+}
+@font-face {
+	font-family: myfont3;
+	src: url('../myfont/zihun_64.ttf');
+}
+.loading {
+	width: 50%;
+	height: 100%;
+	background-color: rgba(165, 189, 189);
+	position: absolute;
+	z-index: 998;
+	transition: 1s;
+}
+
+.loading-right {
+	right: 0;
+}
+.loading-left {
+	left: 0;
+}
+
+.loading-img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: rgba(165, 189, 189);
+	background-image: url(../img/fresh.png);
+	background-size: cover;
+	z-index: 999;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	animation: loading 1s linear 0s infinite;
+}
+
+@keyframes loading {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+.swiper-container {
+	background: url(../img/city1.jpg);
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.swiper-container2{
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+	font-size: 100px;
+	position: relative;
+}
+.swiper-slide{
+	width: 100%;
+	height: 100%;
+	background-repeat: round;
+}
+.swiper-pagination{
+	margin-right: 50px;
+	margin-top: -50px;
+	background-color: rgba(255,255,255,0);
+}
+.swiper-pagination-bullet{    		
+	width: 15px;
+	height: 15px;
+	background: #DDDEDC;
+	opacity: 1;   
+}
+.swiper-pagination-dashed{
+	width: 7px;
+	height: 295px;
+	border-left: 1px dashed #808080;
+	background-color: rgba(255,255,255,0);
+	position: fixed;
+	z-index: 9;
+	bottom: 36%;
+	right: 59.6px;
+}
+.swiper-pagination-bullet:hover{
+	background: #FFFFFF;
+}
+.swiper-pagination-bullet-active{   
+	background: #FFFFFF;
+}
+
+
+.myBanner {
+	width: 100% !important;
+	height: 100% !important;
+	position: absolute !important;
+	z-index: 1 !important;
+	overflow: hidden !important;
+	background-color: rgba(255,255,255,0) !important;
+}
+.myBanner img{
+
+	width: 100% !important;
+	height: 100% !important;
+}
+#html5zoo-1{
+	width: 100% !important;
+	height: 100% !important;       
+}
+.html5zoo-wrapper-0{
+ 	width: 100% !important;
+ 	height: 100% !important;
+}
+.html5zoo-bottom-shadow-0{
+ 	display: none !important; 
+}
+.html5zoo-slider-0{
+ 	width: 100% !important;
+ 	height: 100% !important;
+}
+.html5zoo-box-0{
+ 	width: 100% !important;
+ 	height: 100% !important;
+}	
+.html5zoo-swipe-box-0{
+ 	width: 100% !important;
+ 	height: 100% !important;
+}
+.html5zoo-space-0{
+ 	width: 100% !important;
+ 	height: 100% !important;
+}
+.html5zoo-img-0,.html5zoo-img-0 img{
+ 	width: 100% !important;
+ 	height: 100% !important;
+}
+.html5zoo-timer-0{                
+ 	display: none !important; 
+}
+.html5zoo-nav-0{                
+ 	display: none !important; 
+}
+.html5zoo-watermark-0{        
+ 	display: none !important;
+}
+.html5zoo-text-wrapper-0{   
+    display: none !important; 
+}
+
+
+
+.myMusic{
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	z-index: 10;
+	border-radius: 50%;
+	bottom: 35%;
+	right: 48.5px;
+}
+.music{
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/scenery5.jpg);
+	background-size: cover;
+	position: absolute;
+	border-radius: 50%;
+	cursor: url('../img/fj2.ico'),pointer;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	animation: musicing 6s linear 0s infinite;
+}
+@keyframes musicing{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+.myMusic img{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 50%;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: none;
+	cursor: url('../img/fj2.ico'), pointer;
+}
+.paginDiv-s{
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background-color: #337AB7;
+	position: relative;
+	margin: auto;
+	top: 4px;
+}
+.mohu{
+	width: 100%;
+	height: 966px;
+	position:  absolute;
+    background-color: rgba(86,83,100,.7);
+	min-height: 100%;
+}
+
+.heads{
+	width: 282px;
+	height: 62px;
+	border: 1px solid rgba(255,255,255,0.5);
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.4);
+	position: fixed;
+	top: 40px;
+	left: 50px;
+	z-index: 11;
+	cursor: url('../img/fj2.ico'), pointer;
+}
+.myhead{
+	width: 61px;
+	height: 61px;
+    border:1px solid gray;
+    border-radius: 50%;
+    margin-left: 15px;
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-position:center ;
+    opacity: 1;
+    float: left;
+}
+.myname{
+	width: 185px;
+	height: 61px;
+	float: left;
+    margin-left: 15px;
+    background-color: rgba(255,255,255,0);
+}.name1{
+	width: 73px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: black;
+	margin-top: 15px;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: "寰蒋闆呴粦";
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 30px;
+	float: left;
+}.name2{
+	width: 100px;
+	height: 30px;
+	background-color: rgba(255,255,255,0);
+	float: left;
+	margin-top: 15px;
+	margin-left: 5px;
+	color: #000000;
+	font-family: "寰蒋闆呴粦";
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.comment{
+	width: 150px;
+	height: 50px;
+	background-color: #7986CB;
+	position: fixed;
+	bottom: 40px;
+	left: 50px;
+	border-radius: 10px;
+	border: 1px solid #FFFFFF;
+	z-index: 11;
+	text-align: center;
+	cursor: url('../img/fj2.ico'), pointer;
+	overflow: hidden;
+}
+.comment span{
+	background: rgba(255,255,255,0);
+	line-height: 45px;
+	color: white;
+	position: relative;
+}
+
+.showbox {
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	opacity: 0.8;
+	position: fixed;
+	z-index: 11;
+	left: 0px;
+	top: 0px;
+	display: none;
+}
+.menu {
+	position: fixed;
+	z-index: 13;
+}
+
+.menu-icon {
+	width: 60px;
+	height: 60px;
+	background: rgba(255, 255, 255, 0);
+	position: fixed;
+	border-radius: 50%;
+	top: 37.5px;
+	right: 45px;
+	cursor: url('../img/fj2.ico'), pointer;
+	box-shadow: black 0px 2px 2px 0px;
+	transition: 0.5s;
+	z-index: 13;
+}
+
+.menu-ico {
+	width: 32.5px;
+	height: 4px;
+	background-color: white;
+	border-radius: 5px;
+	transform-origin: center;
+	transition: 0.5s;
+}
+.menu-ico1{
+	position: absolute;
+	top: 19px;
+	left: 14px;
+}
+.menu-ico2{
+	position: absolute;
+	top: 28px;
+	left: 14px;
+}
+.menu-ico3{
+	position: absolute;
+	top: 37px;
+	left: 14px;
+}
+
+.tsk {
+	width: 60px;
+	height: 37.5px;
+	background-color: #337AB7;
+	margin: 34px auto;
+	border-radius: 7px;
+	text-align: center;
+	color: white;
+	font-size: 13px;
+	position: fixed;
+	top: 80px;
+	right: 45px;
+	display: none;
+}
+
+.tsk-i {
+	width: 12px;
+	height: 12px;
+	background-color: #337AB7;
+	transform: rotate(45deg);
+	position: relative;
+	margin: auto;
+	top: -6px;
+}
+
+.nar {
+	width: 0px;
+	height: 100%;
+	background-color: #E4E2E3;
+	position: fixed;
+	right: -360px;
+	top: 0px;
+	visibility: visible;
+	z-index: 12;
+	transform: skew(-11deg);
+	transition: 0.3s;
+}
+.nar-ul{
+	width: 182px;
+	height: 434px;
+	transform: skew(11deg);
+	text-align: right;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 240px;
+	font-size: 20px;
+	background-color: rgba(255,255,255,0);
+}
+.nar-li{
+	width: 180px;
+  	height: 60px;
+  	text-align: right;
+  	background-color: rgba(255,255,255,0);
+}
+.nar-li a{
+	text-decoration: none;
+	background-color: rgba(255,255,255,0);
+}
+.nar-li-d{
+	display: inline-block;
+  	height: 60px;
+  	color: #646464;
+  	background-color: rgba(255,255,255,0);
+  	margin: auto;
+  	line-height: 60px;
+  	padding-left: 25px;
+  	padding-right: 25px;
+  	cursor: url('../img/fj2.ico'), pointer;
+  	position: relative;
+}
+.span-act{
+	width: 0px;
+  	height: 2px;
+  	margin:0 auto;
+  	background-color: #337AB7;
+  	position: absolute;
+  	top: 50%;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+}
+.nar-sign{
+	width: 310px;
+	height: 60px;
+	position: absolute;
+	background-color: rgba(255,255,255,0);
+	transform: skew(11deg);
+	bottom: 30px;
+	left: 170px;
+}.nar-sign .img{
+	position: absolute;
+	top: -80px;
+	left: -220px;
+	background-image:url(../img/H.png);
+	display: block;
+	width: 260px;
+	height: 260px;
+	float: left;
+}
+.nar-myname{
+	margin:0 10px 0 20px;
+	background-color: rgba(255,255,255,0);
+	font-size: 40px;
+	font-weight: 100;
+	font-style: normal;
+	float: left;
+	line-height: 60px;
+}
+.nar-myname:nth-of-type(2){
+	margin-right:0 ;
+}
+.nar-call{
+	width: 126px;
+	height: 60px;
+	float: left;
+	background: rgba(255,255,255,0);
+	margin-top: 7px;
+}.nar-calling{
+	width: 126px;
+	height: 22px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+/*鎴戠殑涓汉浠嬬粛妗�*/
+.My-introduction{
+	width: 722px;
+	height: 290px;
+	background-color: rgba(255,255,255,0);
+	border-radius: 10px;
+    text-align: center;
+    transition: 0.5s;
+    position: absolute;
+    z-index: 11;
+    margin: auto;
+    left: 0; right: 0; top: 0; bottom: 0;
+}.My-introduction h2{
+	font-family: myfont;
+    font-size: 65px;
+    margin-top: 30px;
+    background-color: rgba(255,255,255,0);
+}.My-introduction p{
+	font-size: 22px;
+	margin-top: 10px;
+	background-color: rgba(255,255,255,0);
+}
+/*鍏充簬鎴戞ā鍧楀唴瀹�*/
+.aboutMe{
+	width: 1000px;
+	height: 460px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(255,255,255,0);
+}
+.aboutMe-pic{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 20px auto;
+	background-image: url(../img/1.jpg);
+	background-size: cover;
+	background-position:center ;
+	cursor: url('../img/fj2.ico'), pointer;
+}
+.aboutMe-text{
+	width: 900px;
+	height: 200px;
+	margin: auto;
+	background-color: rgba(255,255,255,0);
+	text-align: justify;
+	font-size: 16px;
+}
+.aboutMe-text p{
+	line-height: 30px;
+	text-indent: 2.4rem;
+	background-color: rgba(255,255,255,0);
+	color: #fff;
+	font-weight: lighter;
+}
+.aboutMe a{
+}
+
+/*鎶€鑳芥ā鍧楀唴瀹�*/
+.myskill{
+	width: 905px;
+	height: 600px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(255,255,255,0);
+	
+}
+.myskill-left{
+	width: 300px;
+	height: 600px;
+	float: left;
+	background-color: rgba(255,255,255,0);
+}
+.myskill-right{
+	width: 600px;
+	height: 600px;
+	float: left;
+	background-color: rgba(255,255,255,0);
+}
+.myskill-left-title{
+	width: 100%;
+	background-color: rgba(255,255,255,0);
+	margin-top: 150px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: #FFD200;
+	text-shadow: #DDDEDC 3px 3px 0px;
+}
+.myskill-left-reduceds{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,0);
+}
+.myskill-left-reduceds-center{
+	width: 100%;
+	height: 100%;
+	margin: 40px auto;
+	background-color: rgba(255,255,255,0);
+	text-align: right;
+}
+.myskill-left-reduce{
+	display: inline-block;
+	height: 36px;
+    margin-top: 2px;
+    position: relative;
+    float: right;
+    right: 50px;
+    line-height: 36px;
+    text-align: right;
+    padding-right: 10px;
+    font-size: larger;
+    color: #fff;
+}
+svg{
+	width: 600px;
+	height: 600px;
+	position: relative;
+	background-color: rgba(255,255,255,0);
+}
+.demo{
+	transition: 0.5s;
+	transform-origin: 300px 300px;
+}
+.demo1{transform: rotate(-160deg);}
+.demo2{transform: rotate(-60deg);}
+.demo3{transform: rotate(-180deg);}
+.demo4{transform: rotate(-30deg);}
+.demo5{transform: rotate(-130deg);}
+.demo:hover {
+	stroke-width: 55;
+	opacity: 0.75;
+	z-index: 999;
+}
+.skills{
+	text-anchor: middle;
+	fill: white;
+	font-size: 25px;
+	transition: 0.5s;
+}.skillPercent{
+	display: none;
+}
+
+/*鎴戠殑缁忓巻 妯″潡*/
+.Myexperience{
+	width: 820px;
+	height: 574px;
+	background-color: rgba(255,255,255,0);
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.Myexperience-left{     /*宸﹁竟*/
+	width: 200px;
+	height: 100%;
+	background-color: rgba(255,255,255,0);
+	float: left;
+}
+.Myexperience-leftTitle{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(255,255,255,0);
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFD200;
+}.Myexperience-leftTitle span{
+	background-color: rgba(255,255,255,0);
+	float: left;
+	line-height: 100px;
+}
+.Myexper-ico{
+	width: 100px;
+	height: 100px;
+	background-color: rgba(255,255,255,0);
+	border: 5px solid #D7D8D8;
+	border-radius: 50%;
+	float: right;
+	text-align: center;
+	cursor: url('../img/fj2.ico'), pointer;
+	transform-origin: center;
+	transition: 1s;
+}
+.Myexper-ico:hover{
+	transform: rotate(360deg);
+	background-color: #6BC30D;
+}
+.Myexper-ico-date{
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0);
+	padding-top: 29px;
+	font-size: 16px;
+	color: #6BC30D;
+	transition: 1s;
+}.Myexper-ico-date p{
+	font-size: 14px;
+	color: #869C71;
+	background-color: rgba(255,255,255,0);
+	transition: 1s;
+}
+.Myexperience-leftTime{
+	width: 155px;
+	height: 470px;
+	background-color: rgba(255,255,255,0);
+	border-right: 8px solid #D7D8D8;
+	position: absolute;
+	text-align: left;
+}
+.MyexperienceTime{ 
+	width: 145px;
+	height: 140px;
+	background-color: rgba(255,255,255,0);
+	color: #E6DE8D;
+	position: relative;
+	cursor: url('../img/fj2.ico'), pointer;
+}
+.Myexperience-leftTime-first{
+    margin-top: 50px;
+}
+
+.MyexperienceTime em{
+	font-size: 14px;
+	background-color: rgba(255,255,255,0);
+}
+.MyexperienceTime b{
+	margin-left: 10px;
+	font-size: 20px;
+	background-color: rgba(255,255,255,0);
+	line-height: 140px;
+}
+.span-i{
+	width: 35px;
+	height: 30px;
+	border-bottom: 3px solid limegreen;
+	float: right;
+	margin-top: 40px;
+	background-color: rgba(255,255,255,0);
+}
+.span-point{
+	width: 20px;
+	height: 20px;
+	border: 1px solid limegreen;
+	border-radius: 50%;
+	background-color: limegreen;
+	position: absolute;
+	top: 60px;
+	left: 141px;
+	transition: all 0.3s;
+}
+.span-point-s{
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background-color: #FFFFFF;
+    position: absolute;
+    top: 61px;
+	left: 142px;
+	
+}
+.Myexperience-right{       /*鍙宠竟*/
+	width: 600px;
+	height: 100%;
+	float: left;
+	background-color: rgba(255,255,255,0);
+}
+.Myworks{
+	width: 650px;
+	height: 130px;
+	margin-left: -50px;
+	background-color: rgba(255,255,255,0);
+	cursor: url('../img/fj2.ico'), pointer;
+}
+.Myworks p{
+	margin-left: 50px;
+	background-color: rgba(255,255,255,0);
+	transition: 0.5s;
+}
+#p1{
+	font-size: 30px;
+	font-weight: 500;
+	color: #FFFFFF;
+	margin-top: 20px;
+}
+#p2{
+	font-size: 14px;
+	color: #869C71;
+}
+#p3{
+	font-size: 15px;
+	color: #FFFFFF;
+}
+.Myworks-one{
+	margin-top: 160px;
+}
+
+
+/*浣滃搧椤甸潰鏍峰紡*/
+.myOpus{
+	width: 730px;
+	height: 400px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(255,255,255,0);
+}
+.myOpus-up{
+	font-size: 15px;
+	width: 100%;
+	height: 300px;
+	background-color: rgba(255,255,255,0);
+}
+.opus{
+	width: 298px;
+	height: 298px;
+	border: #FFFFFF solid 1px;
+	border-radius: 50%;
+	position: relative;
+	float: left;
+	margin-left: 40px;
+	cursor: url('../img/fj2.ico'), pointer;
+	background-color: rgba(255,255,255);
+	transition: 1s;
+}
+.opus img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	filter: grayscale(100%);
+	filter: gray;
+	display: none;
+	position: absolute;
+	
+}
+.opus-title{
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(255,255,255,0);
+	text-align: center;
+}.opus-title h2{
+	font-size: 18px;
+	color: #FFFFFF;
+	background-color: rgba(255,255,255,0);
+	line-height: 50px;
+	opacity: 0.5;
+	transition: 0.7s;
+}
+.myOpus-down{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(255,255,255,0);
+}
+.myOpus-number{
+	width: 25px;
+	height: 25px;
+	color: #FFFFFF;
+	background-color: #D7D8D8;
+	font-size: 20px;
+	float: left;
+	margin: 30px 30px 0 30px ;
+
+	text-align: center;
+	cursor: url('../img/fj2.ico'), pointer;
+}.myOpus-number:nth-child(1){
+	margin-left: 270px;
+	background-color: #A2C044;
+}
+
+/*鑱旂郴鎴� 椤甸潰*/
+.myInfo{
+	width: 500px;
+	height: 460px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(255,255,255,0);
+}
+.myInfo-right{
+	width: 156px;
+	height: 106px;
+	background-color: rgba(255,255,255,0);
+	border-top: 6px solid #FFD200;
+	border-right: 6px solid #FFD200;
+	position: absolute;
+	right: 0;
+}
+.myInfo-bottom{
+	width: 488px;
+	height: 36px;
+	background-color: rgba(255,255,255,0);
+	border: 6px solid #FFD200;
+	border-top: 0px;
+	position: absolute;
+	bottom: 0;
+}
+.myInfo-text{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(255,255,255,0);
+}
+.myInfo-text-heng{
+	width: 389px;
+	height: 71px;
+	border-bottom:1px solid #FFD200;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0);
+	text-align: center;
+}
+.heng-p1,.heng-p2{
+    font-size: 40px;
+    float: left;
+    font-weight: 800;
+    margin-left: 1px;
+    background-color: rgba(255,255,255,0);
+    line-height: 71px;
+    color: #FFD200;
+}
+.heng-p2{
+	color: #FFFFFF;
+}
+.myInfo-text-ur{
+	width: 364px;
+	height: 297px;
+	position: absolute;
+	margin: auto;
+	top: 80px;
+	left: 0;
+	right: 0;
+	background-color: rgba(255,255,255,0);
+}
+.myInfo-text-ur1{
+	width: 364px;
+	height: 50px;
+	background-color: rgba(255,255,255,0);
+}
+.myInfo-text-ur1 p{
+	font-size: 24px;
+	float: left;
+	margin-left: 35px;
+	line-height: 50px;
+	background-color: rgba(255,255,255,0);
+}
+.myInfo-text-ur2{
+	width: 364px;
+	height: 200px;
+	background-color: rgba(255,255,255,0);
+	text-align: center;
+}
+.myInfo-text-ur2 p{
+	font-size: 18px;
+	margin-top: 14px;
+	background-color: rgba(255,255,255,0);
+	color: #FFFFFF;
+}
+.myInfo-text-ur3{
+	width: 100%;
+	height: 34px;
+	background-color: rgba(255,255,255,0);
+}
+.myInfo-text-ur3_Pic{
+	width: 34px;
+	height: 34px;
+	background-color: #404040;
+    border-radius: 50%;
+    float: left;	
+    margin-left: 30.5px;
+    cursor: url('../img/fj2.ico'), pointer;
+    position: relative;
+}
+.myInfo-text-ur3_Pic img{
+	width: 20px;
+	height: 20px;
+	background-color: rgba(255,255,255,0);
+    position: absolute;
+    margin: auto;
+	top: 0px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.myInfo-text-ur3_Pic:hover{
+	background-color: #337AB7;
+	transition: 0.3s;
+}
+.prompt{
+	border: 2px solid #337AB7;
+	background-color: #337AB7;
+	border-radius: 7px;
+	text-align: center;
+	color: white;
+	font-size: 13px;
+	position: relative;
+}
+.prompt1 {
+	width: 60px;
+	height: 37.5px;
+	margin: -55px auto;
+	margin-left: -13px;
+	display: none;
+}
+
+.prompt1-i {
+	width: 12px;
+	height: 12px;
+	background-color: #337AB7;
+	transform: rotate(45deg);
+	position: absolute;
+	margin: auto;
+	top: 29px;
+	left: 0;
+	right: 0;
+}
+.prompt1 p{
+	line-height: 35px;
+	background-color: rgba(255,255,255,0);
+}
+.prompt2{
+	width: 140px;
+	height: 140px;
+    margin: 0 auto;
+    margin-top: -158px;
+    margin-left: -53px;
+	display: none;
+}.prompt2-i{
+	width: 12px;
+	height: 12px;
+	background-color: #337AB7;
+	transform: rotate(45deg);
+	position: absolute;
+	margin: auto;
+	top: 132px;
+	left: 0;
+	right: 0;
+	line-height: 12px;
+}.prompt2 img{
+	width: 135px;
+	height: 135px;
+	border-radius: 7px;
+}
+.prompt3 {
+	width: 120px;
+	height: 37.5px;
+	margin: -55px auto;
+	margin-left: -43px;
+	display: none;
+}
+
+.prompt3-i {
+	width: 12px;
+	height: 12px;
+	background-color: #337AB7;
+	transform: rotate(45deg);
+	position: absolute;
+	margin: auto;
+	top: 29px;
+	left: 0;
+	right: 0;
+	line-height: 12px;
+}
+.prompt3 p{
+	line-height: 35px;
+	background-color: rgba(255,255,255,0);
+}
+.prompt4{
+	width: 135px;
+	height: 145px;
+    margin: 0 auto;
+    margin-top: -164px;
+    margin-left: -51px;
+	display: none;
+}.prompt4-i{
+	width: 12px;
+	height: 12px;
+	background-color: #337AB7;
+	transform: rotate(45deg);
+	position: absolute;
+	margin: auto;
+	top: 137px;
+	left: 0;
+	right: 0;
+}.prompt4 img{
+	width: 130px;
+	height: 140px;
+	border-radius: 7px;
+}
+.prompt5{
+	width: 140px;
+	height: 140px;
+    margin: 0 auto;
+    margin-top: -158px;
+    margin-left: -52px;
+	display: none;
+}.prompt5-i{
+	width: 12px;
+	height: 12px;
+	background-color: #337AB7;
+	transform: rotate(45deg);
+	position: absolute;
+	margin: auto;
+	top: 132px;
+	left: 0;
+	right: 0;
+	line-height: 12px;
+}.prompt5 img{
+	width: 135px;
+	height: 135px;
+	border-radius: 7px;
+}
+.prompt6 {
+	width: 60px;
+	height: 37.5px;
+	margin: -55px auto;
+	margin-left: -13px;
+	display: none;
+}
+
+.prompt6-i {
+	width: 12px;
+	height: 12px;
+	background-color: #337AB7;
+	transform: rotate(45deg);
+	position: absolute;
+	margin: auto;
+	top: 29px;
+	left: 0;
+	right: 0;
+	line-height: 12px;
+}
+.prompt6 p{
+	line-height: 35px;
+	background-color: rgba(255,255,255,0);
+}
+.prompt7 {
+	width: 60px;
+	height: 37.5px;
+	margin: -55px auto;
+	margin-left: -13px;
+	display: none;
+}
+
+.prompt7-i {
+	width: 12px;
+	height: 12px;
+	background-color: #337AB7;
+	transform: rotate(45deg);
+	position: absolute;
+	margin: auto;
+	top: 29px;
+	left: 0;
+	right: 0;
+	line-height: 12px;
+}
+.prompt7 p{
+	line-height: 35px;
+	background-color: rgba(255,255,255,0);
+}
+.mySign{
+	width: 350px;
+	height: 70px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	font-size: 14px;
+	line-height: 30px;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: rgba(255,255,255,0);
+}
+.mySign a:nth-child(2){
+	color: #fff;
+}
+.mySign a:nth-child(2) img{
+	background-color: rgba(255,255,255,0);
+}
+
+
+/*娴忚鍣ㄩ€傞厤瀹藉害灏忎簬绛変簬770px鐨勭Щ鍔ㄧ*/
+@media only screen and (max-width: 770px){
+	*{
+		padding: 0;
+	    margin: 0;
+		border: 0;
+		font-family: "寰蒋闆呴粦";
+		background-color: #FFFFFF;
+	}
+	.swiper-container{
+		display: none;
+	}
+	.container-phone{
+		width: 100%;
+		min-height: 100%;
+		position: relative;
+	}
+	.phone-main{
+		width: 100%;
+		height: 0px;
+		padding-bottom: 75%;
+		position: relative;
+		margin: 0 auto;
+		background-image: url(../img/timg1.jpg);
+		background-size: 100% 100%;
+		filter: blur(0px);   /*鑳屾櫙妯＄硦*/
+	}
+	.phone-main-my{
+		width: 100%;
+		height: 0px;
+		padding-bottom: 65%;
+		position: absolute;
+		background-color: rgba(255,255,255,0);
+		margin: auto;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+	.phone-main-myPic{
+		width: 25%;
+		height: 0px;
+		padding-bottom: 25%;
+		border-radius: 50%;
+		box-shadow: black 0px 0px 15px 0px;
+		margin: 0 auto;
+		background-image: url(../img/resume.jpg);
+		background-size: cover;
+		cursor: url('../img/fj2.ico'), pointer;
+	}
+	.phone-main-myIntroduction{
+		width: 100%;
+		margin: auto;
+		margin-top: 8px;
+		background-color: rgba(255,255,255,0);
+	    text-align: center;
+	    position: relative;
+	}.phone-main-myIntroduction h2{
+		color: #FFFFFF;
+		font-family: myfont;
+	    font-size: 20px;
+	    margin-top: 0px;
+	    background-color: rgba(255,255,255,0);
+	}
+	.phone-main-myIntroduction p{
+		color: #E4E2E3;
+		font-size: 16px;
+		background-color: rgba(255,255,255,0);
+	}
+	.phone-main-myIntroduction p:nth-of-type(1){
+		font-size: 30px;
+	}
+	
+	@media only screen and (max-width: 640px){		
+		.phone-main-myIntroduction h2{
+			font-size: 15px;
+		}
+		.phone-main-myIntroduction p{
+			font-size: 11px;
+		}
+		.phone-main-myIntroduction p:nth-of-type(1){
+			font-size: 25px;
+		}
+    }
+	@media only screen and (max-width: 580px){
+		.phone-main-myIntroduction h2{
+			font-size: 14px;
+		}
+		.phone-main-myIntroduction p{
+			font-size: 10px;
+		}
+		.phone-main-myIntroduction p:nth-of-type(1){
+			font-size: 24px;
+		}
+	}
+	@media only screen and (max-width: 480px){
+		.phone-main-myIntroduction h2{
+			font-size: 12px;
+		}
+		.phone-main-myIntroduction p{
+			font-size: 8px;
+			margin-top: -5px;
+		}
+		.phone-main-myIntroduction p:nth-of-type(1){
+			font-size: 22px;
+		}
+	}
+	@media only screen and (max-width: 430px){
+		.phone-main-myIntroduction h2{
+			font-size: 12px;
+		}
+		.phone-main-myIntroduction p{
+			font-size: 8px;
+			margin-top: -10px;
+		}
+		.phone-main-myIntroduction p:nth-of-type(1){
+			font-size: 22px;
+		}
+		.myInfo-text-ur3{
+			margin-top: 0%;
+		}
+	}
+	.myInfo-text-ur3{
+		width: 100%;
+		margin-top: 0px;
+		position: relative; 
+	}
+	.myInfo-text-Pic{
+		width: 365px;
+		height: 100%;
+		position: absolute;
+		margin: auto;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: rgba(255,255,255,0);
+	}
+	.myInfo-text-ur3_Pic{
+		background-color: #404040;
+	}
+	
+	
+	
+	
+	.phone-aboutMe{
+		width: 100%;
+		white-space: pre-wrap;
+	}
+	.phone-aboutMe-title{
+		width: 80px;
+		height: 35px;
+	    border-bottom: 4px solid #337AB7;
+		margin: 5% auto;
+		margin-bottom: 40px;
+		text-align: center;
+		line-height: 30px;
+		font-size: 2.5rem;
+		font-weight: 500;
+	}
+	.phone-aboutMe-text{
+		width: 90%;
+		margin:-50px auto;
+		text-align: justify;
+		white-space: pre-wrap;
+	}
+	.phone-aboutMe-text p{
+		line-height: 30px;
+		text-indent: 2.4rem;
+		background-color: rgba(255,255,255,0);
+		color: #000;
+		font-size: 14px;
+		margin-top: -45px;
+	}
+	
+	
+	
+	.phone-skill{
+		width: 100%;
+	}
+	.phone-skill-title{
+		height: 35px;
+		width: 105px;
+		border-bottom: 4px solid #337AB7;
+		margin: 50px auto;
+		text-align: center;
+		line-height: 30px;
+		font-size: 2.5rem;
+		font-weight: 500;
+	}
+	.phone-skill-text{
+		width: 90%;
+		margin: -22px auto;
+		text-align: justify;
+		white-space: pre-wrap;
+	}
+	.phone-skill-text p{
+		font-size: 14px;
+		margin-top: -40px;
+		line-height: 30px;
+	}
+	.phone-skill-pic{
+		width: 90%;
+		margin: 0 auto;	
+	}.phone-skill-picture{
+		width: 100%;
+		height: 30px;
+		border-radius: 5px;
+		background-color: #D7D8D8;
+	}.phone-skill-pic p{
+		margin-top: 35px;
+	}.progress-bar{
+		border-radius: 5px;
+	}
+	
+	.phone-exprience{
+		width: 90%;
+		margin: auto;
+		margin:50px auto;
+		
+	}.phone-exprience-title{
+		height: 35px;
+		width: 105px;
+		border-bottom: 4px solid #337AB7;
+		margin: auto;
+		margin-top: 100px;
+		text-align: center;
+		line-height: 30px;
+		font-size: 2.5rem;
+		font-weight: 500;
+	}
+	.phone-exprience-text{
+		width: 100%;
+		margin: auto;
+		margin-top: 30px;
+	}
+	.phone-exprience-texts{
+		width: 100%;
+	}
+	.phone-exprience-time{
+		width: 100%;
+		height: 40px;
+		
+	}.phone-exprience-time span{
+		line-height: 45px;
+		background-color: #ED5565;
+		background-size: 300px;
+		color: #fff;
+		font-size: 16px;
+		margin-left: 10px;
+	}
+	.phone-exprience-thing{
+		width: 95%;
+		border-left: 2px solid #337AB7;
+		margin-left: 15px;
+		margin-top: 15px;
+	}.phone-exprience-thing p{
+		font-size: 14px;
+		margin-left: 25px;
+	}.phone-exprience-thing p:nth-child(2){
+		color: #EE5565;
+	}
+	
+	
+	
+	.phone-opus{
+		width: 90%;
+		margin: 50px auto;
+	}
+	.phone-opus-title{
+		height: 35px;
+		width: 105px;
+		border-bottom: 4px solid #337AB7;
+		margin: auto;
+		margin-top: 100px;
+		text-align: center;
+		line-height: 30px;
+		font-size: 2.5rem;
+		font-weight: 500;
+	}
+	.phone-opus-text{
+		width: 100%;
+		margin: auto;
+	}
+	.swiper-container3{
+		width: 90%;
+		height: 400px;
+		margin: 0px auto;
+		overflow: hidden;
+		position: relative;
+	}.swiper-container3 .swiper-wrapper{
+		width: 100%;
+		height: 300px;
+		position: absolute;
+		margin: auto;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+	}.swiper-container3 .swiper-wrapper .swiper-slide{
+		border-radius: 5px;
+		border: 1px solid #444444;
+	}
+	.swiper-container3 .swiper-wrapper .swiper-slide a{
+		text-decoration: none;
+		color: #FFFFFF;
+		font-size: 20px;
+	}
+    .swiper-slide-opus{
+    	width: 100%;
+    	height: 35px;
+    	background-color: #444444;
+    	border: 1px solid #444444;
+    	border-top-left-radius: 5px;
+    	border-top-right-radius: 5px;
+    	text-align: center;
+    	line-height: 35px;
+    }
+    
+    
+    
+    .phone-call{
+    	width: 100%;
+    	margin: 80px auto;
+    }
+    .phone-call-title{
+    	width: 80px;
+		height: 35px;
+	    border-bottom: 4px solid #337AB7;
+		margin: 5% auto;
+		text-align: center;
+		line-height: 30px;
+		font-size: 2.5rem;
+		font-weight: 500;
+    }
+    .phone-call-messageBox{
+    	width: 95%;
+    	height: 117px;
+    	position: relative;
+    	margin: auto;
+    	margin-top: 80px;
+    	border:1px #313131 solid;
+    	border-radius: 15px;
+    }
+    .phone-call-messageBox-signBig{
+    	width: 56px;
+    	height: 56px;
+    	border: 1px #313131 solid;
+    	border-radius:0 0 100px 100px;
+    	height: 28px;
+    	border-top: 0px;
+    	position: absolute;
+    	top: -1px;
+    	left: 15px;
+    }.phone-call-messageBox-signSmall{
+    	width: 44px;
+    	height: 44px;
+    	margin: auto;
+    	margin-top: -22px;
+    	border: 1px #313131 solid;
+    	border-radius: 50%;
+    	text-align: center;
+    	line-height: 44px;
+    	cursor: url('../img/fj2.ico'), pointer;
+    }.mess{
+    	width: 90%;
+    	height: 60px;
+    	position: absolute;
+    	margin: auto;
+    	top: 20px;
+    	bottom: 0;
+    	left: 0;
+    	right: 0;
+    	resize: none;
+    	outline: none;
+    }
+    .phone-call-messageEmoji{
+    	width: 95%;
+    	height: 30px;
+    	position: relative;
+    	margin: auto;
+    }
+    .phone-call-messageEmoji-left{
+    	width: 190px;
+    	height: 100%;
+    	float: left;
+    	line-height: 45px;
+    }.phone-call-messageEmoji-left img{
+    	width: 20px;
+    	height: 20px;
+    	margin-left: 20px;
+    }
+    .phone-call-messageEmoji-right{
+    	width: 100px;
+    	height: 100%;
+    	float: right;
+    	border: 1px solid #337AB7;
+    	box-shadow: #404040 -4px 4px 5px 0px;
+    	border-radius: 10px;
+    	border-bottom-left-radius: 0px;
+    	background-color: #337AB7;
+    	margin-top: 5px;
+    	margin-right: 5px;
+    	color: #FFFFFF;
+    	text-align: center;
+    	line-height: 30px;
+    	font-size: 20px;
+    	font-family: myfont2;
+    }
+    .phone-call-comment{
+    	width: 95%;
+    	height: 30px;
+    	margin: auto;
+    	border-bottom:1px solid #313131;
+    	margin-top: 60px;
+    	position: relative;
+    }
+    .phone-call-comment-left{
+    	width: 66px;
+    	height: 30px;
+    	border:1px solid #313131;
+    	border-top-left-radius: 10px;
+    	border-top-right-radius: 10px;
+    	border-bottom: 0px;
+    	text-align: center;
+    	line-height: 30px;
+    	font-size: 16px;
+    	float: left;
+    }
+    .phone-call-comment-right{
+    	width: 200px;
+    	height: 25px;
+    	float: right;
+    	font-size: 14px;
+    	text-align: right;
+    	padding-right: 5px;
+    	line-height: 25px;
+    }
+    .phone-call-comment-right span {
+     	font-size: 20px;
+     	font-weight: bold;
+    }   
+    
+    .phone-call-commentContents{
+        width: 95%;
+        height: 0px;
+        padding-bottom: 50%;	   
+    	margin: 20px auto;
+    	position: relative;
+    }
+    .phone-call-commentHot,.phone-call-commentNew{
+    	width: 100%;
+    	height: 130px;
+    	border-bottom:1px dashed #D7D8D8;
+    	margin-top: 40px;
+    }
+    .phone-call-commentHot-Title,.phone-call-commentNew-Title{
+    	width: 100%;
+    	height: 20px;
+    }
+    .hotReviews-x{
+    	width: 5px;
+    	height: 20px;
+    	background-color: #313131;
+    	border: #313131 solid 1px;
+    	border-radius: 5px;
+    	float: left;
+    }.phone-call-commentHot-Title span,.phone-call-commentNew-Title span{
+    	float: left;
+    	font-size: 16px;
+    	line-height: 20px;
+    	margin-left: 13px;
+    }
+    .phone-call-commentHot-Text,.phone-call-commentNew-Text{
+    	width: 100%;
+    	height: 75px;
+    	margin-top: 20px;
+    	text-align: center;
+    }.phone-call-commentHot-Text span,.phone-call-commentNew-Text span{
+    	line-height: 75px;
+    	font-size: 16px;
+    	color: #D7D8D8;
+    }
+    
+    
+    .phone-end{
+    	width: 100%;
+    	height: 50px;
+    	margin: auto;
+    	margin-top: 200px;
+    	text-align: center;
+    	position: relative;
+    }
+    .phone-end p{   	
+    	font-size: 12px;
+    	color: grey;
+    }	 
+    
+    .phone_resume_title{
+    	width: 100%;
+    	height: 65px;
+    	background-color: #444444;
+    	position: fixed;
+    	top: 0px;
+    	left: 0px;
+    	text-align: center;
+    	line-height: 60px;
+    	color: #337AB7;
+    	font-size: 20px;
+    	font-weight: bold;
+    	display: none;
+    }
+    .myMusic{
+    	top: 10px;
+    	left: 15px;
+    }
+    .menu-icon{
+    	top: 0px;
+    	right: 15px;
+    	box-shadow: 0px 0px 0px 0px;
+    }
+    .tsk{
+    	top: 45px;
+    	right: 15px;
+    }
+    .top{
+    	width: 60px;
+    	height: 60px;
+    	position: fixed;
+    	bottom: 50px;
+    	right: 10px;
+    	background-color: rgba(26,54,56,0.1);
+    	background-image: url(../img/top.png);
+    	background-size: cover;
+    	border-radius: 10px;
+    	cursor: url('../img/fj2.ico'), pointer;
+    	display: none;
+    	transition: 1s;
+    }
+
+}
+
+
+@media only screen and (min-width: 770px){
+	
+	.container-phone{
+		display: none;
+	}
+    .swiper-container{
+    	display: block;
+    }
+}
